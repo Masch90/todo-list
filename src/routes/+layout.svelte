@@ -1,9 +1,14 @@
+<script>
+	// Your selected Skeleton theme:
+	import '@skeletonlabs/skeleton/themes/theme-vintage.css';
+
+	// This contains the bulk of Skeletons required styles:
+	// NOTE: this will be renamed skeleton.css in the v2.x release.
+	import '@skeletonlabs/skeleton/styles/skeleton.css';
+
+	import '../app.css';
+</script>
+
 <main>
 	<slot />
 </main>
-
-<style>
-	:global(body) {
-		background-color: rgb(66, 104, 117);
-	}
-</style>

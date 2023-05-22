@@ -1,9 +1,11 @@
+import type { User } from '$lib/types.d';
+
 // See https://kit.svelte.dev/docs/types#app
 // for information about these interfaces
 declare global {
 	namespace App {
 		interface Locals {
-			user: import('$lib/types.d').User;
+			user: User;
 		}
 		// interface Error {}
 		// interface Locals {}
